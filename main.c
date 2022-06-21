@@ -6,27 +6,27 @@ int incremento = 1;
 
 /*Tarefa JAMILLE*/
 void incrementar(){
-    
+
 }
 
 /*Tarefa Pedro*/
 void decrementar(){
-    
+
 }
 
 /*Tarefa JAMILLE*/
 void reiniciar(){
-    
+    valor_atual = valor_inicial;
 }
 
 /*Tarefa Pedro*/
 void setar_incremento(int inc){
-    
+
 }
 
 /*Tarefa JAMILLE*/
 void setar_valor_inicial(int valor){
-    
+
 }
 
 /*Tarefa Pedro*/
@@ -57,6 +57,6 @@ int main(int argc, char const *argv[])
 
         printf("valor atual: %d, valor inicial: %d, incremento: %d \n", valor_atual, valor_inicial, incremento);
     }
-    
+
     return 0;
 }
