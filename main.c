@@ -16,7 +16,7 @@ void decrementar(){
 
 /*Tarefa JAMILLE*/
 void reiniciar(){
-
+    valor_atual = valor_inicial;
 }
 
 /*Tarefa Pedro*/
