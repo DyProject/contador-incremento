@@ -6,7 +6,7 @@ int incremento = 1;
 
 /*Tarefa JAMILLE*/
 void incrementar(){
-
+    valor_atual = valor_atual + incremento;
 }
 
 /*Tarefa Pedro*/
