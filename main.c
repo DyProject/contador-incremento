@@ -26,7 +26,7 @@ void setar_incremento(int inc){
 
 /*Tarefa JAMILLE*/
 void setar_valor_inicial(int valor){
-
+    valor_inicial=valor;
 }
 
 /*Tarefa Pedro*/
@@ -38,7 +38,7 @@ int main(int argc, char const *argv[])
 {
     char opcao = '+';
     while(opcao != '0') {
-        printf("Opcoes: [+] Incrementar, [-] Decrementar, [*] Reiniciar, [i] Novo incremento, [v] Novo valor atual, [v] Novo valor inicial,[0] Sair: ");
+        printf("Opcoes: [+] Incrementar, [-] Decrementar, [*] Reiniciar, [i] Novo incremento, [n] Novo valor atual, [v] Novo valor inicial,[0] Sair: ");
         scanf("%c", &opcao);
         fflush(stdin);
 
