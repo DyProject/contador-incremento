@@ -1,4 +1,5 @@
-contador-incremento.cbp
+*.depend
+*.cbp
 
 # Prerequisites
 *.d
