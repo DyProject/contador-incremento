@@ -11,8 +11,9 @@ void incrementar(){
 
 /*Tarefa Pedro*/
 void decrementar(){
-
+    valor_atual=valor_atual--;
 }
+
 
 /*Tarefa JAMILLE*/
 void reiniciar(){
